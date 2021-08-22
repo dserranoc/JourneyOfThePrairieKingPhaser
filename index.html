@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viaje del Rey de la Pradera</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preload" as="font" href="./assets/fonts/Early-GameBoy.ttf" type="font/ttf" />
+</head>
+<body>
+
+    <div id="progressBarContainer">
+        <!-- <img id="clock" src="/assets/timer.png" alt=""> -->
+        <div id="progressBar"></div>
+    </div>
+    <div id="lifes"><i><img src="/assets/extralife.png" alt=""></i> <span id="lifesText">0</span></div>
+    <div id="coins"><i><img src="/assets/coin.png" alt=""></i> <span id="coinsText">0</span></div>
+    <div id="container"></div>
+    <script src="./node_modules/phaser/dist/phaser.min.js"></script>
+    <script src="src/main.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "prairieking",
+  "version": "1.0.0",
+  "description": "Game based on the minigame Journey of the Prairie King of Stardew Valley",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Serrano Cobos",
+  "license": "ISC",
+  "dependencies": {
+    "phaser": "^3.55.2"
+  }
+}
